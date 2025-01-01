@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BYTE::unsignedchar	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	9;"	d	line:9
+ChrPos	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	81;"	f	line:81	signature:(BYTE bChrPosC, BYTE bChrPosR)
+DelayMS	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\main.c	12;"	p	line:12	file:	signature:(unsigned int n)
+DelayMS	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\main.c	32;"	f	line:32	signature:(unsigned int n)
+HomeClearLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	206;"	f	line:206	signature:(void)
+HomeLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	201;"	f	line:201	signature:(void)
+InitLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	132;"	f	line:132	signature:(void)
+Int2Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	12;"	p	line:12	signature:(int value, int *pstring)
+WORD::unsignedlong	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	10;"	d	line:10
+Wait	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	13;"	p	line:13	signature:(WORD count)
+Wait	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	213;"	f	line:213	signature:(WORD count)
+WrtChrNext	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	76;"	f	line:76	signature:(BYTE bNumber)
+WrtLCDByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	18;"	f	line:18	signature:(BYTE bValue)
+WrtLCDData	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	66;"	f	line:66	signature:(BYTE bValue)
+WrtLCDInst	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	56;"	f	line:56	signature:(BYTE bValue)
+Wrt_Int_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	86;"	f	line:86	signature:( int iNumber, BYTE bChrPosC, BYTE bChrPosR)
+Wrt_S_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	105;"	f	line:105	signature:(char s[], BYTE bChrPosC, BYTE bChrPosR)
+Wrt_Signed_Int_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	118;"	f	line:118	signature:(int iNumber , BYTE bChrPosC, BYTE bChrPosR)
+_Int2Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\Int2Ascii.S	27;"	l	line:27
+adc2dec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	12;"	f	line:12	signature:( unsigned int ADRES )
+adhundredths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	3;"	v	line:3
+adones	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	1;"	v	line:1
+adtenths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	2;"	v	line:2
+adthousandths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	4;"	v	line:4
+bTemp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	20;"	l	line:20
+betn_0_9	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\Int2Ascii.S	43;"	l	line:43
+bin2dec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	100;"	f	line:100	signature:( unsigned long int ADRES )
+buf	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	91;"	l	line:91
+dE::LATBbits.LATB2	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	5;"	d	line:5
+dRS::LATBbits.LATB0	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	4;"	d	line:4
+dR_W::LATBbits.LATB1	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	6;"	d	line:6
+hundreds	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	8;"	v	line:8
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	108;"	l	line:108
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	90;"	l	line:90
+iInt_Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	16;"	v	line:16
+iP	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cLCD.h	89;"	l	line:89
+j	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\main.c	34;"	l	line:34
+main	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\main.c	14;"	f	line:14	signature:(void)
+next_char	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\Int2Ascii.S	37;"	l	line:37
+ones	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	10;"	v	line:10
+s	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\main.c	11;"	v	line:11
+tens	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	9;"	v	line:9
+tenthous	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	6;"	v	line:6
+thousands	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\lcd\cbin2dec.h	7;"	v	line:7

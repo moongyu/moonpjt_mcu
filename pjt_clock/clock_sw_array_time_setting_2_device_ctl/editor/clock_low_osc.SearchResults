@@ -1,0 +1,5 @@
+---- _test Matches (4 in 1 files) ----
+Main.c (f:\work\lab\pjt\pj_clock\clock_sw_array_time_setting):unsigned char guc_set_time_on = 1;	// _test
+Main.c (f:\work\lab\pjt\pj_clock\clock_sw_array_time_setting):unsigned int gun_test_cnt = 0;
+Main.c (f:\work\lab\pjt\pj_clock\clock_sw_array_time_setting):	//TRISE=0x0000;	// _test
+Main.c (f:\work\lab\pjt\pj_clock\clock_sw_array_time_setting):		gun_test_cnt++;

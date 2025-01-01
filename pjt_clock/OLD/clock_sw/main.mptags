@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BAUDRATE::9600	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	13;"	d	line:13	file:
+BRGVAL::((FCY/BAUDRATE)/16)-1	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	14;"	d	line:14	file:
+BYTE::unsignedchar	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	9;"	d	line:9
+CLK::LATBbits.LATB3	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	8;"	d	line:8	file:
+ChrPos	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	81;"	f	line:81	signature:(BYTE bChrPosC, BYTE bChrPosR)
+DATA::LATBbits.LATB4	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	7;"	d	line:7	file:
+DATA_IN::TRISBbits.TRISB4=1;	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	5;"	d	line:5	file:
+DATA_OUT::TRISBbits.TRISB4=0;	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	6;"	d	line:6	file:
+DelayMS	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	175;"	f	line:175	signature:(unsigned int n)
+DelayMS	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	18;"	p	line:18	file:	signature:(unsigned int n)
+Ds1302_GetSec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	159;"	f	line:159	signature:(void)
+Ds1302_GetSec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	44;"	p	line:44	signature:(void)
+Ds1302_InByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	16;"	f	line:16	signature:(void)
+Ds1302_InByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	36;"	p	line:36	signature:(void)
+Ds1302_Init	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	90;"	f	line:90	signature:(void)
+Ds1302_Init	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	33;"	p	line:33	signature:(void)
+Ds1302_OutByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	54;"	f	line:54	signature:(unsigned char command)
+Ds1302_OutByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	37;"	p	line:37	signature:(unsigned char command)
+Ds1302_ReadByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	79;"	f	line:79	signature:(unsigned char command)
+Ds1302_ReadByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	38;"	p	line:38	signature:(unsigned char command)
+Ds1302_ResetTime	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	99;"	f	line:99	signature:(void)
+Ds1302_ResetTime	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	40;"	p	line:40	signature:(void)
+Ds1302_SetHour	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	124;"	f	line:124	signature:(unsigned char hours, unsigned char am, unsigned char md)
+Ds1302_SetHour	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	43;"	p	line:43	signature:(unsigned char Hours, unsigned char am, unsigned char md)
+Ds1302_SetHour_hour	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	136;"	f	line:136	signature:(unsigned char hours)
+Ds1302_SetMinutes	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	115;"	f	line:115	signature:(unsigned char mins)
+Ds1302_SetMinutes	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	42;"	p	line:42	signature:(unsigned char mins)
+Ds1302_SetSec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	106;"	f	line:106	signature:(unsigned char secs)
+Ds1302_SetSec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	41;"	p	line:41	signature:(unsigned char secs)
+Ds1302_SetTime	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	146;"	f	line:146	signature:(void)
+Ds1302_Start	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	38;"	f	line:38	signature:(void)
+Ds1302_Start	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	32;"	p	line:32	signature:(void)
+Ds1302_Stop	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	46;"	f	line:46	signature:(void)
+Ds1302_Stop	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	34;"	p	line:34	signature:(void)
+Ds1302_Time	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	20;"	v	line:20
+Ds1302_WriteByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	71;"	f	line:71	signature:(unsigned char command, unsigned char data)
+Ds1302_WriteByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	39;"	p	line:39	signature:(unsigned char command, unsigned char data)
+FCY::16000000	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	12;"	d	line:12	file:
+GetTime	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	90;"	f	line:90	signature:(void)
+HomeClearLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	206;"	f	line:206	signature:(void)
+HomeLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	201;"	f	line:201	signature:(void)
+InitLCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	132;"	f	line:132	signature:(void)
+Initial_INT	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	160;"	f	line:160	signature:(void)
+Initial_INT	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	16;"	p	line:16	file:	signature:(void)
+Int2Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	12;"	p	line:12	signature:(int value, int *pstring)
+RST::LATBbits.LATB5	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	9;"	d	line:9	file:
+Tds1302_Time	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	5;"	s	line:5
+WORD::unsignedlong	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	10;"	d	line:10
+Wait	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	13;"	p	line:13	signature:(WORD count)
+Wait	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	213;"	f	line:213	signature:(WORD count)
+WrtChrNext	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	76;"	f	line:76	signature:(BYTE bNumber)
+WrtLCDByte	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	18;"	f	line:18	signature:(BYTE bValue)
+WrtLCDData	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	66;"	f	line:66	signature:(BYTE bValue)
+WrtLCDInst	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	56;"	f	line:56	signature:(BYTE bValue)
+Wrt_Int_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	86;"	f	line:86	signature:( int iNumber, BYTE bChrPosC, BYTE bChrPosR)
+Wrt_S_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	105;"	f	line:105	signature:(char s[], BYTE bChrPosC, BYTE bChrPosR)
+Wrt_Signed_Int_LCD	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	118;"	f	line:118	signature:(int iNumber , BYTE bChrPosC, BYTE bChrPosR)
+_INT1Interrupt	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	23;"	f	line:23	signature:(void)
+_INT2Interrupt	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	52;"	f	line:52	signature:(void)
+_Int2Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\Int2Ascii.S	27;"	l	line:27
+_U1RXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	79;"	f	line:79	signature:(void)
+_U1TXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	85;"	f	line:85	signature:(void)
+__DS1302_H	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	2;"	d	line:2
+adc2dec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	12;"	f	line:12	signature:( unsigned int ADRES )
+adhundredths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	3;"	v	line:3
+adones	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	1;"	v	line:1
+adtenths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	2;"	v	line:2
+adthousandths	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	4;"	v	line:4
+alltime	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	15;"	m	line:15	struct:Tds1302_Time
+am	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	13;"	m	line:13	struct:Tds1302_Time
+am	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	92;"	l	line:92
+bTemp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	20;"	l	line:20
+betn_0_9	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\Int2Ascii.S	43;"	l	line:43
+bin2dec	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	100;"	f	line:100	signature:( unsigned long int ADRES )
+buf	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	91;"	l	line:91
+buf	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	27;"	l	line:27
+buf	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	55;"	l	line:55
+c	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	18;"	l	line:18
+d	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	18;"	l	line:18
+dBurst::0xbe	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	24;"	d	line:24
+dCharger::0x90	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	23;"	d	line:23
+dControl::0x8e	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	22;"	d	line:22
+dDate::0x86	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	28;"	d	line:28
+dDelay	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	11;"	f	line:11	signature:(int del)
+dE::LATBbits.LATB2	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	5;"	d	line:5
+dHour::0x84	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	27;"	d	line:27
+dMinute::0x82	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	26;"	d	line:26
+dMonth::0x88	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	29;"	d	line:29
+dRS::LATBbits.LATB0	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	4;"	d	line:4
+dR_W::LATBbits.LATB1	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	6;"	d	line:6
+dSecond::0x80	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	25;"	d	line:25
+dYear::0x8c	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	30;"	d	line:30
+date	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	10;"	m	line:10	struct:Tds1302_Time
+ds1302_Time	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	16;"	t	line:16
+high	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	108;"	l	line:108
+high	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	117;"	l	line:117
+high	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	126;"	l	line:126
+high	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	138;"	l	line:138
+hour	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	9;"	m	line:9	struct:Tds1302_Time
+hr	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	92;"	l	line:92
+hundreds	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	8;"	v	line:8
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	108;"	l	line:108
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	90;"	l	line:90
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	161;"	l	line:161
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	19;"	l	line:19
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	56;"	l	line:56
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	81;"	l	line:81
+i	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	92;"	l	line:92
+iInt_Ascii	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	16;"	v	line:16
+iP	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cLCD.h	89;"	l	line:89
+inc	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	27;"	l	line:27
+inc	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	55;"	l	line:55
+j	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	177;"	l	line:177
+low	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	108;"	l	line:108
+low	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	117;"	l	line:117
+low	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	126;"	l	line:126
+low	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	138;"	l	line:138
+lsb	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	27;"	l	line:27
+lsb	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	55;"	l	line:55
+main	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	102;"	f	line:102	signature:(void)
+md	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	14;"	m	line:14	struct:Tds1302_Time
+md	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	92;"	l	line:92
+minute	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	8;"	m	line:8	struct:Tds1302_Time
+month	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	11;"	m	line:11	struct:Tds1302_Time
+msb	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	27;"	l	line:27
+msb	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	55;"	l	line:55
+next_char	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\Int2Ascii.S	37;"	l	line:37
+ones	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	10;"	v	line:10
+received_data	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	19;"	v	line:19
+s	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	21;"	v	line:21
+second	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	7;"	m	line:7	struct:Tds1302_Time
+t	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	21;"	v	line:21
+tens	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	9;"	v	line:9
+tenthous	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	6;"	v	line:6
+thousands	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\cbin2dec.h	7;"	v	line:7
+tmp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	108;"	l	line:108
+tmp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	117;"	l	line:117
+tmp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	126;"	l	line:126
+tmp	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.c	138;"	l	line:138
+uart_init	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	137;"	f	line:137	signature:(void)
+uart_init	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\main.c	17;"	p	line:17	file:	signature:(void)
+year	C:\Program Files\Microchip\MPLAB C30\work\pj_clock\clock_sw\ds1302.h	12;"	m	line:12	struct:Tds1302_Time

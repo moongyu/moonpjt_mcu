@@ -1,0 +1,3 @@
+---- Int2Ascii Matches (2 in 1 files) ----
+cLCD.h (f:\work\lab_updating\pjt\pjt_clock\ok\clock_sw_array_time_setting_2_device_ctl):void Int2Ascii(int value, int *pstring);
+cLCD.h (f:\work\lab_updating\pjt\pjt_clock\ok\clock_sw_array_time_setting_2_device_ctl):	Int2Ascii(iNumber,iP);			//Convert Int in w0 to 4 digit Ascii @ Int_Ascii
