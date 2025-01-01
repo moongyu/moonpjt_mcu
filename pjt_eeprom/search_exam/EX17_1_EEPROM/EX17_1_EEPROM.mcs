@@ -1,0 +1,59 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=F:\References\TAIWAN_APP020_Source_Code\Exercise\EX17_1_EEPROM\eeprom.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|c:\pic30_tools\support\inc||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|eeprom.c|EX17_1_EEPROM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mconst-in-code
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=F:\References\TAIWAN_APP020_Source_Code\Exercise\EX17_1_EEPROM\EX17_1_EEPROM.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|c:\pic30_tools\support\inc||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|eeprom.c|EX17_1_EEPROM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mconst-in-code
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=F:\References\TAIWAN_APP020_Source_Code\Exercise\EX17_1_EEPROM\EX17_1_EEPROM.cof
+Folder=Output
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|c:\pic30_tools\support\inc||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|eeprom.c|EX17_1_EEPROM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=__ICD2RAM=1 -Map="$(TARGETBASE).map" -o"$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File003]
+Location=F:\References\TAIWAN_APP020_Source_Code\Exercise\EX17_1_EEPROM\EX17_1_EEPROM.hex
+Folder=Output
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|c:\pic30_tools\support\inc||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|eeprom.c|EX17_1_EEPROM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=__ICD2RAM=1 -Map="$(TARGETBASE).map" -o"$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\pic30_tools\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe

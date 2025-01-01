@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+Temp	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	11;"	l	line:11
+Temp	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	53;"	l	line:53
+Temp2	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	54;"	l	line:54
+data	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	11;"	l	line:11
+debug	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	11;"	l	line:11
+erase_word_eeprom	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	35;"	f	line:35	signature:( unsigned int *addr)
+main	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	8;"	f	line:8
+offset	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	11;"	l	line:11
+read_eeprom	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	25;"	f	line:25	signature:(int *addr)
+write_word_eeprom	C:\temp\dsPIC30F2010_EEPROM_Data_Read_Write\dsPIC30F2010_EEPROM_Data_Read_Write.c	50;"	f	line:50	signature:(unsigned int *addr, unsigned valude)

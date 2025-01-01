@@ -1,0 +1,5 @@
+---- fooArrayInDataEE Matches (4 in 1 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_eeprom)://int _EEDATA(32) fooArrayInDataEE[] = {0,1,2,3,4,5,6,7,8,9,0xA,0xB,0xC,0xD,0xE,0xF};
+Main.c (f:\work\lab_updating\pjt\pjt_eeprom):	//_init_prog_address(EE_addr, fooArrayInDataEE);        
+Main.c (f:\work\lab_updating\pjt\pjt_eeprom):	/*Copy array "fooArrayinDataEE" from DataEEPROM to "fooArray2inRAM" in RAM*/    
+Main.c (f:\work\lab_updating\pjt\pjt_eeprom):	/*Erase a row in Data EEPROM at array "fooArrayinDataEE" */    

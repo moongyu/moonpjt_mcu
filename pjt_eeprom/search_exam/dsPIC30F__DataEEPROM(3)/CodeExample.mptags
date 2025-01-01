@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ALL_EEPROM::0xFFFF	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	42;"	d	line:42
+CODE_PROT_OFF	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	47;"	v	line:47
+ERROREE::-1	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	43;"	d	line:43
+EraseEE	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	67;"	p	line:67	signature:(int Page, int Offset, int Size)
+L0	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	63;"	l	line:63
+L1	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	66;"	l	line:66
+L2	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	86;"	l	line:86
+L3	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	101;"	l	line:101
+L4	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	105;"	l	line:105
+L5	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	124;"	l	line:124
+L6	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	127;"	l	line:127
+L7	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	145;"	l	line:145
+PWRT_OFF	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	46;"	v	line:46
+ROW::16	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	41;"	d	line:41
+ReadEE	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	55;"	p	line:55	signature:(int Page, int Offset, int* DataOut, int Size)
+WDT_OFF	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	45;"	v	line:45
+WORD::1	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	40;"	d	line:40
+WriteEE	C:\temp\dsPIC30F__DataEEPROM\h\DataEEPROM.h	79;"	p	line:79	signature:(int* DataIn, int Page, int Offset, int Size)
+XT_PLL8	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	43;"	v	line:43
+_EraseEE	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	70;"	l	line:70
+_ReadEE	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	54;"	l	line:54
+_WriteEE	C:\temp\dsPIC30F__DataEEPROM\src\DataEEPROM.s	111;"	l	line:111
+fooArray1inRAM	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	56;"	v	line:56
+fooArray2inRAM	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	58;"	v	line:58
+i	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	65;"	l	line:65
+main	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	61;"	f	line:61	signature:(void)
+temp	C:\temp\dsPIC30F__DataEEPROM\src\main_DataEEPROM_access.c	63;"	l	line:63
