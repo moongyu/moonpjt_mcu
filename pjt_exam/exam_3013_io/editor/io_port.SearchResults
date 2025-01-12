@@ -1,0 +1,21 @@
+---- ADPCFGBITS Matches (21 in 2 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_exam\pjt_io\io_port):	ADPCFGBITS.PCFG0 = 1; 
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):typedef struct tagADPCFGBITS {
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):} ADPCFGBITS;
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):extern volatile ADPCFGBITS ADPCFGbits __attribute__((__sfr__));
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG0 ADPCFGbits.PCFG0
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG1 ADPCFGbits.PCFG1
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG2 ADPCFGbits.PCFG2
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG3 ADPCFGbits.PCFG3
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG4 ADPCFGbits.PCFG4
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG5 ADPCFGbits.PCFG5
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG6 ADPCFGbits.PCFG6
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG7 ADPCFGbits.PCFG7
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG8 ADPCFGbits.PCFG8
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG9 ADPCFGbits.PCFG9
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG10 ADPCFGbits.PCFG10
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG11 ADPCFGbits.PCFG11
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG12 ADPCFGbits.PCFG12
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG13 ADPCFGbits.PCFG13
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG14 ADPCFGbits.PCFG14
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _PCFG15 ADPCFGbits.PCFG15

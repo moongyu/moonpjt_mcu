@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+Initial_IO_Ports	C:\Program Files\Microchip\MPLAB C30\work\book\30f4012_basic\io_port_test\main.c	16;"	p	line:16	file:	signature:(void)
+Initial_IO_Ports	C:\Program Files\Microchip\MPLAB C30\work\book\30f4012_basic\io_port_test\main.c	34;"	f	line:34	signature:(void)
+dDelay	C:\Program Files\Microchip\MPLAB C30\work\book\30f4012_basic\io_port_test\main.c	17;"	p	line:17	file:	signature:(int del)
+dDelay	C:\Program Files\Microchip\MPLAB C30\work\book\30f4012_basic\io_port_test\main.c	41;"	f	line:41	signature:(int del)
+main	C:\Program Files\Microchip\MPLAB C30\work\book\30f4012_basic\io_port_test\main.c	21;"	f	line:21	signature:(void)

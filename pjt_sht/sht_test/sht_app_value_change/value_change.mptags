@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ACK::1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	30;"	d	line:30	file:
+BAUDRATE::19200	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	18;"	d	line:18	file:
+BRGVAL::((FCY/BAUDRATE)/16)-1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	19;"	d	line:19	file:
+C1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	192;"	l	line:192
+C2	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	193;"	l	line:193
+C3	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	194;"	l	line:194
+DATA::PORTDbits.RD0	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	23;"	d	line:23	file:
+DATA_IN::TRISDbits.TRISD0=1;	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	26;"	d	line:26	file:
+DATA_OUT::TRISDbits.TRISD0=0;	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	27;"	d	line:27	file:
+EC_PLL4	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	14;"	v	line:14
+FCY::8000000	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	17;"	d	line:17	file:
+HUMI	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	21;"	e	line:21	file:
+MEASURE_HUMI::0x05	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	35;"	d	line:35	file:
+MEASURE_TEMP::0x03	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	34;"	d	line:34	file:
+RESET::0x1e	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	36;"	d	line:36	file:
+SCK::PORTBbits.RB5	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	24;"	d	line:24	file:
+STATUS_REG_R::0x07	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	33;"	d	line:33	file:
+STATUS_REG_W::0x06	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	32;"	d	line:32	file:
+T1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	195;"	l	line:195
+T2	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	196;"	l	line:196
+TEMP	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	21;"	e	line:21	file:
+WDT_OFF	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	15;"	v	line:15
+_U1TXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	38;"	f	line:38	signature:(void)
+buffer_humi	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	255;"	l	line:255
+buffer_humi_f	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	253;"	l	line:253
+buffer_temp	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	255;"	l	line:255
+buffer_temp_f	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	253;"	l	line:253
+calc_dewpoint	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	214;"	f	line:214	signature:(float h, float t)
+calc_sthll	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	190;"	f	line:190	signature:(float *p_humidity, float *p_temperature)
+checksum	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	254;"	l	line:254
+cnt	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	255;"	l	line:255
+dew_point	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	216;"	l	line:216
+dew_point	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	253;"	l	line:253
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	122;"	l	line:122
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	130;"	l	line:130
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	140;"	l	line:140
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	150;"	l	line:150
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	254;"	l	line:254
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	46;"	l	line:46
+humi_val_LSB	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	252;"	l	line:252
+humi_val_MSB	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	252;"	l	line:252
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	110;"	l	line:110
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	151;"	l	line:151
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	255;"	l	line:255
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	46;"	l	line:46
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	69;"	l	line:69
+i_l	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	152;"	l	line:152
+k	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	216;"	l	line:216
+main	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	222;"	f	line:222	signature:(void)
+noACK::0	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	29;"	d	line:29	file:
+rh	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	198;"	l	line:198
+rh_lin	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	200;"	l	line:200
+rh_true	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	201;"	l	line:201
+s_connectionreset	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	108;"	f	line:108	signature:(void)
+s_measure	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	148;"	f	line:148	signature:(unsigned char *p_value_MSB, unsigned char *p_value_LSB, unsigned char *p_checksum, unsigned char mode)
+s_read_byte	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	67;"	f	line:67	signature:(unsigned char ack)
+s_read_statusreg	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	128;"	f	line:128	signature:(unsigned char *p_value, unsigned char *p_checksum)
+s_softreset	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	120;"	f	line:120	signature:(void)
+s_transstart	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	91;"	f	line:91	signature:(void)
+s_write_byte	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	44;"	f	line:44	signature:(unsigned char value)
+s_write_statusreg	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	138;"	f	line:138	signature:(unsigned char *p_value)
+t	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	199;"	l	line:199
+t_C	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	202;"	l	line:202
+temp_val_LSB	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	252;"	l	line:252
+temp_val_MSB	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	252;"	l	line:252
+test_char	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	254;"	l	line:254
+test_int	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	255;"	l	line:255
+val	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\sht_app_value_change\main.c	69;"	l	line:69

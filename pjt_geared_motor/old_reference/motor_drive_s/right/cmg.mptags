@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BAUDRATE::9600	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	11;"	d	line:11	file:
+BRGVAL::((FCY/BAUDRATE)/16)-1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	12;"	d	line:12	file:
+CODE_PROT_OFF	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	8;"	v	line:8
+EC_PLL8	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	5;"	v	line:5
+FCY::16000000	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	10;"	d	line:10	file:
+PWRT_OFF	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	7;"	v	line:7
+WDT_OFF	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	6;"	v	line:6
+_U1RXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	27;"	f	line:27	signature:(void)
+_U1TXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	33;"	f	line:33	signature:(void)
+adc_flag	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	22;"	v	line:22
+config1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	203;"	l	line:203
+config2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	204;"	l	line:204
+config3	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	205;"	l	line:205
+delay_ms	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	16;"	p	line:16	file:	signature:(unsigned int n)
+delay_ms	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	241;"	f	line:241	signature:(unsigned int n)
+drive_mode_circle_fast	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	19;"	p	line:19	file:	signature:(void)
+drive_mode_circle_fast	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	324;"	f	line:324
+drive_mode_circle_slow	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	20;"	p	line:20	file:	signature:(void)
+drive_mode_circle_slow	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	337;"	f	line:337
+drive_mode_s	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	18;"	p	line:18	file:	signature:(void)
+drive_mode_s	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	253;"	f	line:253
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	23;"	v	line:23
+j	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	23;"	v	line:23
+j	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	243;"	l	line:243
+main	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	38;"	f	line:38	signature:(void)
+motor_init	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	15;"	p	line:15	file:	signature:(void)
+motor_init	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	198;"	f	line:198
+period	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	200;"	l	line:200
+pwm_high	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	255;"	l	line:255
+pwm_high_1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	326;"	l	line:326
+pwm_high_1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	339;"	l	line:339
+pwm_high_2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	326;"	l	line:326
+pwm_high_2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	339;"	l	line:339
+pwm_low	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	255;"	l	line:255
+pwm_low_1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	326;"	l	line:326
+pwm_low_1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	339;"	l	line:339
+pwm_low_2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	326;"	l	line:326
+pwm_low_2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	339;"	l	line:339
+pwm_value_1	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	25;"	v	line:25
+pwm_value_2	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	25;"	v	line:25
+pwm_zero	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	255;"	l	line:255
+pwm_zero	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	326;"	l	line:326
+pwm_zero	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	339;"	l	line:339
+received_data	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	24;"	v	line:24
+sptime	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	201;"	l	line:201
+uart_init	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	14;"	p	line:14	file:	signature:(void)
+uart_init	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	219;"	f	line:219	signature:(void)
+uart_put_string	C:\Program Files\Microchip\MPLAB C30\work\ilic\motor_source\motor_drive_s\right\main.c	17;"	p	line:17	file:	signature:(unsigned char *uart_string)

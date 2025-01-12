@@ -1,0 +1,10 @@
+---- libperi Matches (9 in 1 files) ----
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void CloseMCPWM(void) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void ConfigIntMCPWM(unsigned int config) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):               config1, unsigned int config2, unsigned int config3) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void OverrideMCPWM(unsigned int config) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):                char updatedisable) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void SetMCPWMDeadTimeGeneration(unsigned int config) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void SetMCPWMFaultA(unsigned int config) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void SetMCPWMDeadTimeAssignment(unsigned int config) __attribute__ ((section (".libperi")));
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void SetMCPWMFaultB(unsigned int config) __attribute__ ((section (".libperi")));

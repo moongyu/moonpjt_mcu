@@ -1,0 +1,3 @@
+---- MANUAL_CONTROLL Matches (2 in 1 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\remote_rc_inputcapture):#ifdef MANUAL_CONTROLL	// Switch type 사용시 
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\remote_rc_inputcapture):	// MANUAL_CONTROLL 시에만 활성화 

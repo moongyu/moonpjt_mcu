@@ -1,0 +1,4 @@
+---- _RB0 Matches (3 in 2 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\remote_rc_inputcapture_controllmode):#define CONTROL_MODE_SW		(_RB0)
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\remote_rc_inputcapture_controllmode):	if(_RB0 == 1)
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#define _RB0 PORTBbits.RB0

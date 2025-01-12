@@ -1,0 +1,84 @@
+---- SetDCMCPWM Matches (83 in 2 files) ----
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(1,pwm_value_1,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):			SetDCMCPWM(2,pwm_value_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// left_first
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_high,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// forw
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// right 
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// forw
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// left
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_high,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// left_first
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// forw
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// right 
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_high,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// forw
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			// left
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_high_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,0,0);			
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,0,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(1,pwm_low_2,0);
+Main.c (f:\work\lab\pjt\pjt_geared_motor\motor_drive_s\right):	SetDCMCPWM(2,pwm_zero,0);	
+Pwm.h (c:\program files (x86)\microchip\xc16\v1.11\support\peripheral_30f_24h_33f):void SetDCMCPWM(unsigned int dutycyclereg, unsigned int dutycycle, 

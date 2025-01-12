@@ -1,0 +1,17 @@
+< editor 기본 구성 >
+C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\h\p30F4012.h
+
+< include 구성 >
+C:\Program Files (x86)\Microchip\xc16\v1.11\support\peripheral_30F_24H_33F\pwm.h
+C:\Program Files (x86)\Microchip\xc16\v1.11\support\peripheral_30F_24H_33F\adc10.h
+
+< 프로젝트 구성 >
+C:\Program Files (x86)\Microchip\xc16\v1.11\lib\dsPIC30F\libp30F4012-coff.a
+C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\gld\p30F4012.gld
+
+
+< 기타 >
+C:\Program Files (x86)\Microchip\xc16\v1.11\examples\dsPIC30F
+
+
+

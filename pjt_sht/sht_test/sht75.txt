@@ -1,0 +1,280 @@
+/*****************************************************
+This program was produced by the
+CodeWizardAVR V1.24.8d Professional
+Automatic Program Generator
+?Copyright 1998-2006 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : 
+Version : 
+Date    : 2008-01-31
+Author  : F4CG                            
+Company : F4CG                            
+Comments: 
+
+
+Chip type           : ATmega128
+Program type        : Application
+Clock frequency     : 16.000000 MHz
+Memory model        : Small
+External SRAM size  : 0
+Data Stack size     : 1024
+*****************************************************/
+
+#include <mega128.h>  
+#include <delay.h>
+#include<math.h>
+typedef union
+{       unsigned int i;
+        float f;
+}value;
+value temp_val, humi_val; 
+enum{TEMP,HUMI};
+#define DATA_OUT DDRA.0
+#define DATA_IN  PINA.0
+#define SHT_SCK  PORTA.1
+#define noACK 0
+#define ACK 1
+#define STATUS_REG_W 0x06 //000 0011 0
+#define STATUS_REG_R 0x07 //000 0011 1
+#define MEASURE_TEMP 0x03 //000 0001 1
+#define MEASURE_HUMI 0x05 //000 0010 1
+#define RESET 0x1e //000 1111 0
+// I2C Bus functions
+ /* #asm
+   .equ __i2c_port=0x1B ;PORTA
+   .equ __sda_bit=0
+   .equ __scl_bit=1
+#endasm
+#include <i2c.h>
+   */
+
+#include <stdio.h>
+
+char s_write_byte(char value)
+{
+  char i, error=0;  
+  for(i=0x80; i>0; i/=2) { //shift bit for masking
+  	  if(i & value) DATA_OUT=0; //masking value with i, write to SENSI-BUS
+     else DATA_OUT=1;
+    // delay_us(2);
+     SHT_SCK=1;   //clk for SENSI-BUS
+     delay_us(5); //pulswith approx. 5 us  	
+     SHT_SCK=0;
+  }
+  DATA_OUT=0;    //release DATA-line
+  SHT_SCK=1;     //clk #9 for ack
+  // delay_us(2);
+  error=DATA_IN; //check ack (DATA will be pulled down by SHT11)
+  //delay_us(2);
+  SHT_SCK=0;        
+  return error;  //error=1 in case of no acknowledge
+}
+
+char s_read_byte(char ack)
+{
+   char i, val=0;
+   DATA_OUT=0;    //release DATA-line
+   for(i=0x80; i>0; i/=2) { //shift bit for masking
+      SHT_SCK=1; //clk for SENSI-BUS
+   //   delay_us(2);
+      if(DATA_IN) val=(val | i); //read bit
+      SHT_SCK=0;
+     // delay_us(2);
+   }
+   DATA_OUT=ack; //in case of "ack==1" pull down DATA-Line
+   SHT_SCK=1;    //clk #9 for ack
+   delay_us(5);  //pulswith approx. 5 us
+   SHT_SCK=0;
+   DATA_OUT=0;   //release DATA-line
+   return val;
+}
+
+void s_transstart()
+{
+   DATA_OUT=0; 
+   SHT_SCK=0;  //Initial state
+   delay_us(2);
+   SHT_SCK=1;
+   delay_us(2);
+   DATA_OUT=1;
+   delay_us(2);
+   SHT_SCK=0;  
+   delay_us(5);
+   SHT_SCK=1;
+   delay_us(2);
+   DATA_OUT=0;		   
+   delay_us(2);
+   SHT_SCK=0;		   
+}  
+
+void s_connectionreset() //처음-->start
+{
+   char i;
+   DATA_OUT=1; SHT_SCK=0; //Initial state
+   for(i=0; i<9; i++) {   //9 SCK cycles
+      SHT_SCK=1;
+     // delay_us(2);
+      SHT_SCK=0;
+     // delay_us(2);
+   }  s_transstart();
+}
+
+char s_measure(char *p_value, char *p_checksum, char mode)
+{
+   unsigned  error=0;
+
+   s_transstart(); //transmission start
+   switch(mode) {  //send command to sensor
+   case TEMP : error+=s_write_byte(MEASURE_TEMP); break;
+   case HUMI : error+=s_write_byte(MEASURE_HUMI); break;
+   default : break;
+   }
+   while(1) { if(DATA_IN == 0) break; }  //wait until sensor has finished the measurement
+   if(DATA_IN) error+=1;      //or timeout (~2 sec.) is reached
+   *(p_value)  = s_read_byte(ACK); 
+   *(p_value+1)= s_read_byte(ACK);   //read the first byte (MSB)
+     //read the second byte (LSB)
+   *p_checksum = s_read_byte(noACK); //read checksum
+   return error;
+}   
+const float C1= -4.0;              //for 12 Bit
+const float C2= +0.0405;           //for 12 Bit
+const float C3= -0.0000028;        //for 12 Bit
+const float T1= +0.01;             //for 14 Bit @ 5V
+const float T2= +0.00008;          //for 14 Bit @ 5V 
+
+  
+
+void calc_sth11(float *p_humidity ,float *p_temperature)
+{          
+
+
+   float rh;      //rh: Humidity [Ticks] 12 Bit
+   float t;       //t: Temperature [Ticks] 14 Bit
+   float rh_lin;  //rh_lin: Humidity linear
+   float rh_true; //rh_true: Temperature compensated humidity
+   float t_C;     //t_C : Temperature [C]
+
+   rh= *p_humidity;    //rh: Humidity [Ticks] 12 Bit
+   t = *p_temperature; //t: Temperature [Ticks] 14 Bit
+   t_C= t*0.01 - 40;   //calc. Temperature from ticks to [C]
+   rh_lin= C3*rh*rh + C2*rh + C1; //calc. Humidity from ticks to [%RH]
+   rh_true= (t_C-25)*(T1+T2*rh)+rh_lin; //calc. Temperature compensated humidity [%RH]
+   if(rh_true > 100) rh_true=100; //cut if the value is outside of
+   if(rh_true < 0.1) rh_true=0.1; //the physical possible range
+   *p_temperature= t_C;  //return temperature [C]
+   *p_humidity= rh_true; //return humidity[%RH]
+}
+
+float calc_dewpoint(float h, float t)
+{
+   float logEx, dew_point;
+   logEx=0.66077+7.5*t / (237.3+t)+(log10(h)-2) ;
+   dew_point = (logEx-0.66077)*237.3 / (0.66077+7.5-logEx) ;
+   return dew_point;
+}
+
+
+
+void main(void)
+{ 
+float dew_point;
+char error=0,checksum;  
+unsigned int i;
+
+
+
+// Declare your local variables here
+
+// Input/Output Ports initialization
+// Port A initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTA=0b11111110;
+DDRA=0b11111110;
+
+// Port B initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTB=0x00;
+DDRB=0x00;
+
+// Port C initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTC=0x00;
+DDRC=0x00;
+
+// Port D initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTD=0x00;
+DDRD=0x00;
+
+// Port E initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTE=0x00;
+DDRE=0x00;
+
+// Port F initialization
+// Func7=In Func6=In Func5=In Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State7=T State6=T State5=T State4=T State3=T State2=T State1=T State0=T 
+PORTF=0x00;
+DDRF=0x00;
+
+// Port G initialization
+// Func4=In Func3=In Func2=In Func1=In Func0=In 
+// State4=T State3=T State2=T State1=T State0=T 
+PORTG=0x00;
+DDRG=0x00;
+
+
+
+
+
+
+
+
+// USART0 initialization
+// Communication Parameters: 8 Data, 1 Stop, No Parity
+// USART0 Receiver: On
+// USART0 Transmitter: On
+// USART0 Mode: Asynchronous
+// USART0 Baud rate: 9600
+UCSR0A=0x00;
+UCSR0B=0x18;
+UCSR0C=0x06;
+UBRR0H=0x00;
+UBRR0L=0x67;
+
+// Analog Comparator initialization
+// Analog Comparator: Off
+// Analog Comparator Input Capture by Timer/Counter 1: Off
+ACSR=0x80;
+SFIOR=0x00;
+
+// I2C Bus initialization
+ // i2c_init();
+
+s_connectionreset();
+
+
+while (1)
+      {   
+         error += s_measure((char*) &temp_val.i,&checksum,TEMP); //measure temperature(온도)
+         error += s_measure((char*) &humi_val.i,&checksum,HUMI); //measure(측정) humidity(습도)
+         if(error != 0) s_connectionreset(); //in case of an error: connection reset
+          else {
+           humi_val.f=(float)humi_val.i; //converts integer to float
+           temp_val.f=(float)temp_val.i; //converts integer to float
+          calc_sth11(&humi_val.f, &temp_val.f); //calculate humidity, temperature
+          dew_point=calc_dewpoint(humi_val.f, temp_val.f); //calculate dew point 
+             printf("temp:%5f C humi:%5f   dew point:%5f C\n\r",temp_val.f,humi_val.f,dew_point);
+        }    
+         //  printf("temp:%5.1f C humi:%5.1f %  dew point:%5.1f C\n\r",temp_val.f,humi_val.f,dew_point);
+        for(i=0;i<40000;i++); 
+    
+      };
+}

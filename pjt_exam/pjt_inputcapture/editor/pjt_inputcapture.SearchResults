@@ -1,0 +1,3 @@
+---- __dsPIC30F4012__ Matches (2 in 2 files) ----
+p30F4012.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#ifndef __dsPIC30F4012__
+p30Fxxxx.h (c:\program files (x86)\microchip\xc16\v1.11\support\dspic30f\h):#if defined(__dsPIC30F4012__)

@@ -1,0 +1,3 @@
+---- IN_SW1 Matches (2 in 1 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_finedust):#define IN_SW1		_LATF5
+Main.c (f:\work\lab_updating\pjt\pjt_finedust):	if(IN_SW1 == 0)

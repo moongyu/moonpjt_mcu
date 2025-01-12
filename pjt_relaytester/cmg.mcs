@@ -1,0 +1,59 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=F:\work\lab_updating\pjt\pjt_relaytester\main.o
+Folder=Intermediary
+DeviceName=dsPIC30F3013
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\lib||$(LKRDIR)||
+SOLK=<src>|main.c|Int2Ascii.S||<obj>||<lib>|C:\Program Files (x86)\Microchip\xc16\v1.11\lib\dsPIC30F\libp30F3013-coff.a||<lkr>|C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\gld\p30F3013.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=F:\work\lab_updating\pjt\pjt_relaytester\Int2Ascii.o
+Folder=Intermediary
+DeviceName=dsPIC30F3013
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={C6E07232-414F-4A0C-AF99-CD44E2B71960}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\lib||$(LKRDIR)||
+SOLK=<src>|main.c|Int2Ascii.S||<obj>||<lib>|C:\Program Files (x86)\Microchip\xc16\v1.11\lib\dsPIC30F\libp30F3013-coff.a||<lkr>|C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\gld\p30F3013.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=F:\work\lab_updating\pjt\pjt_relaytester\cmg.cof
+Folder=Output
+DeviceName=dsPIC30F3013
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\lib||$(LKRDIR)||
+SOLK=<src>|main.c|Int2Ascii.S||<obj>||<lib>|C:\Program Files (x86)\Microchip\xc16\v1.11\lib\dsPIC30F\libp30F3013-coff.a||<lkr>|C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\gld\p30F3013.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=F:\work\lab_updating\pjt\pjt_relaytester\cmg.hex
+Folder=Output
+DeviceName=dsPIC30F3013
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\src\libm||$(INCDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\inc||$(LIBDIR)|C:\Program Files (x86)\Microchip\xc16\v1.11\lib||$(LKRDIR)||
+SOLK=<src>|main.c|Int2Ascii.S||<obj>||<lib>|C:\Program Files (x86)\Microchip\xc16\v1.11\lib\dsPIC30F\libp30F3013-coff.a||<lkr>|C:\Program Files (x86)\Microchip\xc16\v1.11\support\dsPIC30F\gld\p30F3013.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{C6E07232-414F-4A0C-AF99-CD44E2B71960}=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-as.exe
+tool_loc{B1442D91-FF1F-4E60-9714-C39C1BA9DB62}=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-gcc.exe
+tool_loc{6836D8CA-42BB-48FB-9E77-3F0AA8005073}=C:\Program Files (x86)\Microchip\xc16\v1.11\bin\xc16-ld.exe

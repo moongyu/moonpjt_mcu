@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ACK::1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	33;"	d	line:33	file:
+BAUDRATE::19200	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	14;"	d	line:14	file:
+BRGVAL::((FCY/BAUDRATE)/16)-1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	15;"	d	line:15	file:
+C1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	168;"	l	line:168
+C2	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	169;"	l	line:169
+C3	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	170;"	l	line:170
+DATA::PORTBbits.RB5	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	28;"	d	line:28	file:
+EC_PLL8	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	10;"	v	line:10
+FCY::16000000	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	13;"	d	line:13	file:
+HUMI	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	23;"	e	line:23	file:
+MEASURE_HUMI::0x05	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	38;"	d	line:38	file:
+MEASURE_TEMP::0x03	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	37;"	d	line:37	file:
+RESET::0x1e	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	39;"	d	line:39	file:
+SCK::PORTDbits.RD0	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	29;"	d	line:29	file:
+STATUS_REG_R::0x07	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	36;"	d	line:36	file:
+STATUS_REG_W::0x06	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	35;"	d	line:35	file:
+T1	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	171;"	l	line:171
+T2	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	172;"	l	line:172
+TEMP	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	23;"	e	line:23	file:
+WDT_OFF	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	11;"	v	line:11
+_U1TXInterrupt	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	41;"	f	line:41	signature:(void)
+calc_dewpoint	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	190;"	f	line:190	signature:(float h, float t)
+calc_sthll	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	166;"	f	line:166	signature:(float *p_humidity, float *p_temperature)
+checksum	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	232;"	l	line:232
+dew_point	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	192;"	l	line:192
+dew_point	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	231;"	l	line:231
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	118;"	l	line:118
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	126;"	l	line:126
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	136;"	l	line:136
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	145;"	l	line:145
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	232;"	l	line:232
+error	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	50;"	l	line:50
+f	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	20;"	m	line:20	file:
+humi_val	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	230;"	l	line:230
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	106;"	l	line:106
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	146;"	l	line:146
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	19;"	m	line:19	file:
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	233;"	l	line:233
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	50;"	l	line:50
+i	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	70;"	l	line:70
+k	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	192;"	l	line:192
+main	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	198;"	f	line:198	signature:(void)
+noACK::0	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	32;"	d	line:32	file:
+rh	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	174;"	l	line:174
+rh_lin	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	176;"	l	line:176
+rh_true	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	177;"	l	line:177
+s_connectionreset	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	104;"	f	line:104	signature:(void)
+s_measure	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	143;"	f	line:143	signature:(unsigned char *p_value, unsigned char *p_checksum, unsigned char mode)
+s_read_byte	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	68;"	f	line:68	signature:(unsigned char ack)
+s_read_statusreg	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	124;"	f	line:124	signature:(unsigned char *p_value, unsigned char *p_checksum)
+s_softreset	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	116;"	f	line:116	signature:(void)
+s_transstart	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	87;"	f	line:87	signature:(void)
+s_write_byte	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	48;"	f	line:48	signature:(unsigned char value)
+s_write_statusreg	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	134;"	f	line:134	signature:(unsigned char *p_value)
+t	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	175;"	l	line:175
+t_C	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	178;"	l	line:178
+temp_val	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	230;"	l	line:230
+val	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	70;"	l	line:70
+value	C:\Program Files\Microchip\MPLAB C30\work\ilic\sht_test\main.c	21;"	t	line:21	file:

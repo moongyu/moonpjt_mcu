@@ -1,0 +1,19 @@
+---- SPEED Matches (19 in 1 files) ----
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):#define SPEED				(0x5fff)
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):#define SPEED_UP			(SPEED + 0x2000)
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED_UP,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED_UP,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED_UP,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED_UP,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):				SetDCMCPWM(2,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):			SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):			SetDCMCPWM(2,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):			SetDCMCPWM(1,SPEED,0);
+Main.c (f:\work\lab_updating\pjt\pjt_geared_motor\mobile_robot_motor_remote):			SetDCMCPWM(2,SPEED,0);
