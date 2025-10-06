@@ -1,9 +1,3 @@
-testa_a
-testa_d
-test_add
+testa_1
+testa_2
 testa_3
-test_4
-test_add
-test_add2
-test_5
-test_6
